@@ -1,0 +1,1500 @@
+Performing C SOURCE FILE Test HAVE_CURLOPT_USERNAME failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3936460587.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:01 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3936460587.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3936460587.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3936460587.dir\Debug\cmTryCom.2C2B0C76.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3936460587.dir\Debug\cmTryCom.2C2B0C76.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_CURLOPT_USERNAME /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3936460587.dir\Debug\\" /Fd"cmTryCompileExec3936460587.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_CURLOPT_USERNAME /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3936460587.dir\Debug\\" /Fd"cmTryCompileExec3936460587.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue src.c
+  
+  src.c
+src.c(2): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3936460587.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3936460587.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3936460587.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  src.c(2): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3936460587.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:02.21
+
+Source file was:
+
+  #include <curl/curl.h>
+  int main() {int x = CURLOPT_USERNAME;}
+Performing C SOURCE FILE Test HAVE_CURLOPT_PASSWORD failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2398740846.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:04 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2398740846.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2398740846.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2398740846.dir\Debug\cmTryCom.C04AE7C5.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2398740846.dir\Debug\cmTryCom.C04AE7C5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_CURLOPT_PASSWORD /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2398740846.dir\Debug\\" /Fd"cmTryCompileExec2398740846.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_CURLOPT_PASSWORD /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2398740846.dir\Debug\\" /Fd"cmTryCompileExec2398740846.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue src.c
+  
+  src.c
+src.c(2): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2398740846.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2398740846.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2398740846.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  src.c(2): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2398740846.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.31
+
+Source file was:
+
+  #include <curl/curl.h>
+  int main() {int x = CURLOPT_PASSWORD;}
+Performing C SOURCE FILE Test HAVE_CURLOPT_KEYPASSWD failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec4147741311.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:05 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4147741311.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec4147741311.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec4147741311.dir\Debug\cmTryCom.45058E7F.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec4147741311.dir\Debug\cmTryCom.45058E7F.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_CURLOPT_KEYPASSWD /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4147741311.dir\Debug\\" /Fd"cmTryCompileExec4147741311.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_CURLOPT_KEYPASSWD /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4147741311.dir\Debug\\" /Fd"cmTryCompileExec4147741311.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue src.c
+  
+  src.c
+src.c(2): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4147741311.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4147741311.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4147741311.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  src.c(2): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4147741311.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.35
+
+Source file was:
+
+  #include <curl/curl.h>
+  int main() {int x = CURLOPT_KEYPASSWD;}
+Performing C SOURCE FILE Test HAVE_CURLINFO_RESPONSE_CODE failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2279129741.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:05 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2279129741.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2279129741.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2279129741.dir\Debug\cmTryCom.F063A759.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2279129741.dir\Debug\cmTryCom.F063A759.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_CURLINFO_RESPONSE_CODE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2279129741.dir\Debug\\" /Fd"cmTryCompileExec2279129741.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_CURLINFO_RESPONSE_CODE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2279129741.dir\Debug\\" /Fd"cmTryCompileExec2279129741.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue src.c
+  
+  src.c
+src.c(2): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2279129741.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2279129741.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2279129741.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  src.c(2): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2279129741.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.40
+
+Source file was:
+
+  #include <curl/curl.h>
+  int main() {int x = CURLINFO_RESPONSE_CODE;}
+Performing C SOURCE FILE Test HAVE_CURLOPT_CHUNK_BGN_FUNCTION failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3189348173.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:06 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3189348173.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3189348173.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3189348173.dir\Debug\cmTryCom.2B65BBF2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3189348173.dir\Debug\cmTryCom.2B65BBF2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_CURLOPT_CHUNK_BGN_FUNCTION /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3189348173.dir\Debug\\" /Fd"cmTryCompileExec3189348173.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_CURLOPT_CHUNK_BGN_FUNCTION /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3189348173.dir\Debug\\" /Fd"cmTryCompileExec3189348173.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue src.c
+  
+  src.c
+src.c(2): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3189348173.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3189348173.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3189348173.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  src.c(2): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3189348173.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.31
+
+Source file was:
+
+  #include <curl/curl.h>
+  int main() {int x = CURLOPT_CHUNK_BGN_FUNCTION;}
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1101314894.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:16 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1101314894.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1101314894.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1101314894.dir\Debug\cmTryCom.661344F3.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1101314894.dir\Debug\cmTryCom.661344F3.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1101314894.dir\Debug\\" /Fd"cmTryCompileExec1101314894.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1101314894.dir\Debug\\" /Fd"cmTryCompileExec1101314894.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1101314894.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1101314894.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1101314894.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1101314894.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.34
+
+
+Determining if the include file alloca.h exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2728362575.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:16 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2728362575.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2728362575.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2728362575.dir\Debug\cmTryCom.2E77A2F1.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2728362575.dir\Debug\cmTryCom.2E77A2F1.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2728362575.dir\Debug\\" /Fd"cmTryCompileExec2728362575.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2728362575.dir\Debug\\" /Fd"cmTryCompileExec2728362575.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'alloca.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2728362575.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2728362575.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2728362575.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'alloca.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2728362575.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.38
+
+
+Determining if the include file dirent.h exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec681768092.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:19 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec681768092.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec681768092.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec681768092.dir\Debug\cmTryCom.F665768F.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec681768092.dir\Debug\cmTryCom.F665768F.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec681768092.dir\Debug\\" /Fd"cmTryCompileExec681768092.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec681768092.dir\Debug\\" /Fd"cmTryCompileExec681768092.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'dirent.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec681768092.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec681768092.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec681768092.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'dirent.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec681768092.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.30
+
+
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec85387271.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:19 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec85387271.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec85387271.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec85387271.dir\Debug\cmTryCom.FB58166A.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec85387271.dir\Debug\cmTryCom.FB58166A.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec85387271.dir\Debug\\" /Fd"cmTryCompileExec85387271.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec85387271.dir\Debug\\" /Fd"cmTryCompileExec85387271.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec85387271.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec85387271.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec85387271.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec85387271.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.41
+
+
+Determining if the include file getopt.h exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3338953379.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:22 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3338953379.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3338953379.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3338953379.dir\Debug\cmTryCom.EECA58D0.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3338953379.dir\Debug\cmTryCom.EECA58D0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3338953379.dir\Debug\\" /Fd"cmTryCompileExec3338953379.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3338953379.dir\Debug\\" /Fd"cmTryCompileExec3338953379.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'getopt.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3338953379.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3338953379.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3338953379.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'getopt.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3338953379.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.47
+
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1936425178.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:28 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1936425178.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1936425178.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1936425178.dir\Debug\cmTryCom.56767EEE.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1936425178.dir\Debug\cmTryCom.56767EEE.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1936425178.dir\Debug\\" /Fd"cmTryCompileExec1936425178.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1936425178.dir\Debug\\" /Fd"cmTryCompileExec1936425178.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1936425178.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1936425178.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1936425178.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1936425178.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.37
+
+
+Determining if the include file sys/dir.h exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec4094437205.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:30 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4094437205.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec4094437205.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec4094437205.dir\Debug\cmTryCom.272B8F4C.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec4094437205.dir\Debug\cmTryCom.272B8F4C.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4094437205.dir\Debug\\" /Fd"cmTryCompileExec4094437205.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4094437205.dir\Debug\\" /Fd"cmTryCompileExec4094437205.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/dir.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4094437205.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4094437205.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4094437205.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/dir.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4094437205.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.54
+
+
+Determining if the include file sys/ndir.h exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec610940724.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:31 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec610940724.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec610940724.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec610940724.dir\Debug\cmTryCom.D17BCC79.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec610940724.dir\Debug\cmTryCom.D17BCC79.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec610940724.dir\Debug\\" /Fd"cmTryCompileExec610940724.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec610940724.dir\Debug\\" /Fd"cmTryCompileExec610940724.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/ndir.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec610940724.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec610940724.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec610940724.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/ndir.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec610940724.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.29
+
+
+Determining if the include file sys/param.h exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1517408326.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:31 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1517408326.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1517408326.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1517408326.dir\Debug\cmTryCom.D32BFE13.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1517408326.dir\Debug\cmTryCom.D32BFE13.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1517408326.dir\Debug\\" /Fd"cmTryCompileExec1517408326.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1517408326.dir\Debug\\" /Fd"cmTryCompileExec1517408326.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/param.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1517408326.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1517408326.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1517408326.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/param.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1517408326.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.97
+
+
+Determining if the include file sys/time.h exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3142799538.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:33 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3142799538.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3142799538.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3142799538.dir\Debug\cmTryCom.A4C66302.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3142799538.dir\Debug\cmTryCom.A4C66302.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3142799538.dir\Debug\\" /Fd"cmTryCompileExec3142799538.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3142799538.dir\Debug\\" /Fd"cmTryCompileExec3142799538.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3142799538.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3142799538.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3142799538.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3142799538.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.29
+
+
+Determining if the include file sys/wait.h exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2472301925.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:34 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2472301925.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2472301925.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2472301925.dir\Debug\cmTryCom.4791560F.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2472301925.dir\Debug\cmTryCom.4791560F.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2472301925.dir\Debug\\" /Fd"cmTryCompileExec2472301925.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2472301925.dir\Debug\\" /Fd"cmTryCompileExec2472301925.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/wait.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2472301925.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2472301925.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2472301925.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/wait.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2472301925.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.49
+
+
+Determining if the include file sys/resource.h exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2070803688.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:35 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2070803688.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2070803688.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2070803688.dir\Debug\cmTryCom.17539386.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2070803688.dir\Debug\cmTryCom.17539386.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2070803688.dir\Debug\\" /Fd"cmTryCompileExec2070803688.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2070803688.dir\Debug\\" /Fd"cmTryCompileExec2070803688.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/resource.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2070803688.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2070803688.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2070803688.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/resource.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2070803688.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.36
+
+
+Determining if the include file endian.h exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3405584589.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:37 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3405584589.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3405584589.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3405584589.dir\Debug\cmTryCom.6E6C2E96.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3405584589.dir\Debug\cmTryCom.6E6C2E96.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3405584589.dir\Debug\\" /Fd"cmTryCompileExec3405584589.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3405584589.dir\Debug\\" /Fd"cmTryCompileExec3405584589.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'endian.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3405584589.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3405584589.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3405584589.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'endian.h': No such file or directory [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3405584589.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.42
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1450243819.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:47 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1450243819.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1450243819.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1450243819.dir\Debug\cmTryCom.078E557B.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1450243819.dir\Debug\cmTryCom.078E557B.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1450243819.dir\Debug\\" /Fd"cmTryCompileExec1450243819.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_OFF64_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1450243819.dir\Debug\\" /Fd"cmTryCompileExec1450243819.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_OFF64_T.c"
+  
+  SIZEOF_OFF64_T.c
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_OFF64_T.c(19): error C2065: 'off64_t' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1450243819.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_OFF64_T.c(20): error C2065: 'off64_t' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1450243819.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_OFF64_T.c(21): error C2065: 'off64_t' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1450243819.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_OFF64_T.c(22): error C2065: 'off64_t' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1450243819.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_OFF64_T.c(23): error C2065: 'off64_t' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1450243819.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1450243819.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1450243819.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_OFF64_T.c(19): error C2065: 'off64_t' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1450243819.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_OFF64_T.c(20): error C2065: 'off64_t' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1450243819.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_OFF64_T.c(21): error C2065: 'off64_t' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1450243819.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_OFF64_T.c(22): error C2065: 'off64_t' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1450243819.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_OFF64_T.c(23): error C2065: 'off64_t' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1450243819.vcxproj]
+
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:00.39
+
+D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CheckTypeSize/SIZEOF_OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of ssize_t failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec235339038.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:50 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec235339038.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec235339038.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec235339038.dir\Debug\cmTryCom.D8129D0A.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec235339038.dir\Debug\cmTryCom.D8129D0A.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec235339038.dir\Debug\\" /Fd"cmTryCompileExec235339038.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec235339038.dir\Debug\\" /Fd"cmTryCompileExec235339038.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c"
+  
+  SIZEOF_SSIZE_T.c
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(19): error C2065: 'ssize_t' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec235339038.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(20): error C2065: 'ssize_t' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec235339038.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(21): error C2065: 'ssize_t' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec235339038.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(22): error C2065: 'ssize_t' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec235339038.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(23): error C2065: 'ssize_t' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec235339038.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec235339038.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec235339038.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(19): error C2065: 'ssize_t' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec235339038.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(20): error C2065: 'ssize_t' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec235339038.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(21): error C2065: 'ssize_t' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec235339038.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(22): error C2065: 'ssize_t' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec235339038.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(23): error C2065: 'ssize_t' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec235339038.vcxproj]
+
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:00.54
+
+D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(ssize_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uchar failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3226286855.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:52 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3226286855.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3226286855.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3226286855.dir\Debug\cmTryCom.0F505221.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3226286855.dir\Debug\cmTryCom.0F505221.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3226286855.dir\Debug\\" /Fd"cmTryCompileExec3226286855.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_UCHAR.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3226286855.dir\Debug\\" /Fd"cmTryCompileExec3226286855.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_UCHAR.c"
+  
+  SIZEOF_UCHAR.c
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_UCHAR.c(19): error C2065: 'uchar' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3226286855.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_UCHAR.c(20): error C2065: 'uchar' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3226286855.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_UCHAR.c(21): error C2065: 'uchar' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3226286855.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_UCHAR.c(22): error C2065: 'uchar' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3226286855.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_UCHAR.c(23): error C2065: 'uchar' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3226286855.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3226286855.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3226286855.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_UCHAR.c(19): error C2065: 'uchar' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3226286855.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_UCHAR.c(20): error C2065: 'uchar' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3226286855.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_UCHAR.c(21): error C2065: 'uchar' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3226286855.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_UCHAR.c(22): error C2065: 'uchar' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3226286855.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_UCHAR.c(23): error C2065: 'uchar' : undeclared identifier [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3226286855.vcxproj]
+
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:00.60
+
+D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uchar))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fsync exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3710455271.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:55 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3710455271.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3710455271.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3710455271.dir\Debug\cmTryCom.21F90B88.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3710455271.dir\Debug\cmTryCom.21F90B88.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fsync /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3710455271.dir\Debug\\" /Fd"cmTryCompileExec3710455271.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fsync /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3710455271.dir\Debug\\" /Fd"cmTryCompileExec3710455271.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3710455271.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3710455271.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3710455271.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3710455271.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _fsync referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3710455271.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3710455271.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3710455271.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3710455271.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3710455271.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _fsync referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3710455271.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3710455271.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3710455271.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.53
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3175210386.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:56 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3175210386.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3175210386.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3175210386.dir\Debug\cmTryCom.AA2F0461.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3175210386.dir\Debug\cmTryCom.AA2F0461.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strlcat /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3175210386.dir\Debug\\" /Fd"cmTryCompileExec3175210386.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strlcat /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3175210386.dir\Debug\\" /Fd"cmTryCompileExec3175210386.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3175210386.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3175210386.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3175210386.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3175210386.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _strlcat referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3175210386.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3175210386.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3175210386.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3175210386.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3175210386.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _strlcat referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3175210386.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3175210386.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3175210386.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.48
+
+
+Determining if the function snprintf exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec809994631.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:58 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec809994631.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec809994631.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec809994631.dir\Debug\cmTryCom.88BE4ECF.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec809994631.dir\Debug\cmTryCom.88BE4ECF.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=snprintf /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec809994631.dir\Debug\\" /Fd"cmTryCompileExec809994631.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=snprintf /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec809994631.dir\Debug\\" /Fd"cmTryCompileExec809994631.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec809994631.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec809994631.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec809994631.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec809994631.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _snprintf referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec809994631.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec809994631.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec809994631.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec809994631.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec809994631.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _snprintf referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec809994631.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec809994631.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec809994631.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.82
+
+
+Determining if the function strndup exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2012654129.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:21:03 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2012654129.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2012654129.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2012654129.dir\Debug\cmTryCom.6A0CC19C.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2012654129.dir\Debug\cmTryCom.6A0CC19C.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strndup /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2012654129.dir\Debug\\" /Fd"cmTryCompileExec2012654129.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strndup /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2012654129.dir\Debug\\" /Fd"cmTryCompileExec2012654129.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2012654129.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2012654129.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2012654129.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2012654129.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _strndup referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2012654129.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2012654129.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2012654129.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2012654129.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2012654129.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _strndup referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2012654129.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2012654129.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2012654129.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining if the function strcasecmp exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3484002003.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:21:04 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3484002003.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3484002003.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3484002003.dir\Debug\cmTryCom.C6F20401.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3484002003.dir\Debug\cmTryCom.C6F20401.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strcasecmp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3484002003.dir\Debug\\" /Fd"cmTryCompileExec3484002003.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strcasecmp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3484002003.dir\Debug\\" /Fd"cmTryCompileExec3484002003.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3484002003.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3484002003.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3484002003.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3484002003.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _strcasecmp referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3484002003.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3484002003.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3484002003.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3484002003.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3484002003.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _strcasecmp referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3484002003.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3484002003.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3484002003.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.74
+
+
+Determining if the function mkstemp exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2774713630.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:21:08 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2774713630.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2774713630.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2774713630.dir\Debug\cmTryCom.96530F35.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2774713630.dir\Debug\cmTryCom.96530F35.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mkstemp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2774713630.dir\Debug\\" /Fd"cmTryCompileExec2774713630.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mkstemp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2774713630.dir\Debug\\" /Fd"cmTryCompileExec2774713630.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2774713630.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2774713630.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2774713630.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2774713630.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _mkstemp referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2774713630.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2774713630.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2774713630.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2774713630.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2774713630.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _mkstemp referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2774713630.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2774713630.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2774713630.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.45
+
+
+Determining if the function gettimeofday exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3949411338.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:21:10 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3949411338.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3949411338.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3949411338.dir\Debug\cmTryCom.52BB3053.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3949411338.dir\Debug\cmTryCom.52BB3053.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3949411338.dir\Debug\\" /Fd"cmTryCompileExec3949411338.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3949411338.dir\Debug\\" /Fd"cmTryCompileExec3949411338.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3949411338.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3949411338.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3949411338.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3949411338.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _gettimeofday referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3949411338.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3949411338.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3949411338.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3949411338.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3949411338.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _gettimeofday referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3949411338.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3949411338.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3949411338.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.82
+
+
+Determining if the function MPI_Comm_f2C exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec4205726166.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:21:11 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4205726166.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec4205726166.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec4205726166.dir\Debug\cmTryCom.8B857B09.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec4205726166.dir\Debug\cmTryCom.8B857B09.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=MPI_Comm_f2C /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4205726166.dir\Debug\\" /Fd"cmTryCompileExec4205726166.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=MPI_Comm_f2C /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4205726166.dir\Debug\\" /Fd"cmTryCompileExec4205726166.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4205726166.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4205726166.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4205726166.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec4205726166.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _MPI_Comm_f2C referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4205726166.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4205726166.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4205726166.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4205726166.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4205726166.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _MPI_Comm_f2C referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4205726166.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4205726166.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4205726166.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.59
+
+
+Determining if the function getpagesize exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2562592756.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:21:13 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2562592756.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2562592756.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2562592756.dir\Debug\cmTryCom.4F0226F2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2562592756.dir\Debug\cmTryCom.4F0226F2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getpagesize /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2562592756.dir\Debug\\" /Fd"cmTryCompileExec2562592756.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getpagesize /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2562592756.dir\Debug\\" /Fd"cmTryCompileExec2562592756.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2562592756.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2562592756.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2562592756.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2562592756.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _getpagesize referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2562592756.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2562592756.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2562592756.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2562592756.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2562592756.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _getpagesize referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2562592756.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2562592756.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2562592756.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.52
+
+
+Determining if the function sysconf exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec477364022.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:21:14 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec477364022.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec477364022.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec477364022.dir\Debug\cmTryCom.47185420.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec477364022.dir\Debug\cmTryCom.47185420.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sysconf /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec477364022.dir\Debug\\" /Fd"cmTryCompileExec477364022.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sysconf /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec477364022.dir\Debug\\" /Fd"cmTryCompileExec477364022.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec477364022.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec477364022.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec477364022.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec477364022.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _sysconf referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec477364022.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec477364022.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec477364022.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec477364022.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec477364022.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _sysconf referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec477364022.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec477364022.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec477364022.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.48
+
+
+Determining if the function mremap exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2225104902.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:21:14 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2225104902.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2225104902.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2225104902.dir\Debug\cmTryCom.B6F5116B.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2225104902.dir\Debug\cmTryCom.B6F5116B.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mremap /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2225104902.dir\Debug\\" /Fd"cmTryCompileExec2225104902.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mremap /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2225104902.dir\Debug\\" /Fd"cmTryCompileExec2225104902.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2225104902.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2225104902.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2225104902.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2225104902.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _mremap referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2225104902.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2225104902.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2225104902.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2225104902.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2225104902.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _mremap referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2225104902.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2225104902.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2225104902.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.46
+
+
+Determining if the function getrlimit exists failed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec101110923.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:21:15 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec101110923.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec101110923.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec101110923.dir\Debug\cmTryCom.97446D65.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec101110923.dir\Debug\cmTryCom.97446D65.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getrlimit /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec101110923.dir\Debug\\" /Fd"cmTryCompileExec101110923.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getrlimit /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec101110923.dir\Debug\\" /Fd"cmTryCompileExec101110923.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec101110923.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec101110923.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec101110923.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec101110923.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _getrlimit referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec101110923.vcxproj]
+D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec101110923.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec101110923.vcxproj]
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec101110923.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec101110923.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _getrlimit referenced in function _main [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec101110923.vcxproj]
+  D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec101110923.exe : fatal error LNK1120: 1 unresolved externals [D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec101110923.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.63
+
+

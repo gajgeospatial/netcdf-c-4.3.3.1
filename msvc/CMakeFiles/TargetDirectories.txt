@@ -1,0 +1,13 @@
+D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/.distcheck.dir
+D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/.distdir.dir
+D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/ALL_BUILD.dir
+D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/ZERO_CHECK.dir
+D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/libdap2/CMakeFiles/dap2.dir
+D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/libdispatch/CMakeFiles/dispatch.dir
+D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/dist.dir
+D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/distcheck.dir
+D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/liblib/CMakeFiles/netcdf.dir
+D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/libsrc/CMakeFiles/netcdf3.dir
+D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/libsrc4/CMakeFiles/netcdf4.dir
+D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/oc2/CMakeFiles/oc2.dir
+D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/uninstall.dir

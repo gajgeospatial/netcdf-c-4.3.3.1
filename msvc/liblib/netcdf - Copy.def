@@ -1,0 +1,8 @@
+EXPORTS
+nc_inq_ncid
+nc_inq_grps
+nc_inq_grpname
+nc_inq_dimids
+nc_def_grp
+nc_copy_att
+nc_del_att

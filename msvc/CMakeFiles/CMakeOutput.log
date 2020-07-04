@@ -1,0 +1,1841 @@
+The system is: Windows - 6.2 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/4/2015 5:08:46 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\2.8.12.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\2.8.12.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\2.8.12.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2227770397.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/4/2015 5:08:47 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2227770397.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2227770397.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2227770397.dir\Debug\cmTryCom.381D764A.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2227770397.dir\Debug\cmTryCom.381D764A.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2227770397.dir\Debug\\" /Fd"cmTryCompileExec2227770397.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2227770397.dir\Debug\\" /Fd"cmTryCompileExec2227770397.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2227770397.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2227770397.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2227770397.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2227770397.dir\Debug\testCCompiler.obj
+  cmTryCompileExec2227770397.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2227770397.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2227770397.dir\Debug\cmTryCom.381D764A.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2227770397.dir\Debug\cmTryCom.381D764A.tlog\cmTryCompileExec2227770397.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2227770397.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec993504669.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/4/2015 5:08:48 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec993504669.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec993504669.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec993504669.dir\Debug\cmTryCom.7BCA3B93.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec993504669.dir\Debug\cmTryCom.7BCA3B93.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec993504669.dir\Debug\\" /Fd"cmTryCompileExec993504669.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec993504669.dir\Debug\\" /Fd"cmTryCompileExec993504669.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec993504669.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec993504669.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec993504669.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec993504669.dir\Debug\CMakeCCompilerABI.obj
+  cmTryCompileExec993504669.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec993504669.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec993504669.dir\Debug\cmTryCom.7BCA3B93.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec993504669.dir\Debug\cmTryCom.7BCA3B93.tlog\cmTryCompileExec993504669.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec993504669.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.56
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1989553749.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:07 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1989553749.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1989553749.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1989553749.dir\Debug\cmTryCom.1CC5F94D.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1989553749.dir\Debug\cmTryCom.1CC5F94D.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1989553749.dir\Debug\\" /Fd"cmTryCompileExec1989553749.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1989553749.dir\Debug\\" /Fd"cmTryCompileExec1989553749.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1989553749.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1989553749.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1989553749.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1989553749.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec1989553749.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1989553749.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1989553749.dir\Debug\cmTryCom.1CC5F94D.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1989553749.dir\Debug\cmTryCom.1CC5F94D.tlog\cmTryCompileExec1989553749.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1989553749.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:08.57
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec4126846591.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:17 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4126846591.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec4126846591.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec4126846591.dir\Debug\cmTryCom.CB2597CF.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec4126846591.dir\Debug\cmTryCom.CB2597CF.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4126846591.dir\Debug\\" /Fd"cmTryCompileExec4126846591.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4126846591.dir\Debug\\" /Fd"cmTryCompileExec4126846591.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4126846591.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4126846591.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4126846591.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec4126846591.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec4126846591.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4126846591.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec4126846591.dir\Debug\cmTryCom.CB2597CF.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec4126846591.dir\Debug\cmTryCom.CB2597CF.tlog\cmTryCompileExec4126846591.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4126846591.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3995704686.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:18 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3995704686.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3995704686.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3995704686.dir\Debug\cmTryCom.2DC476EE.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3995704686.dir\Debug\cmTryCom.2DC476EE.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3995704686.dir\Debug\\" /Fd"cmTryCompileExec3995704686.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3995704686.dir\Debug\\" /Fd"cmTryCompileExec3995704686.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3995704686.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3995704686.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3995704686.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3995704686.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec3995704686.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3995704686.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3995704686.dir\Debug\cmTryCom.2DC476EE.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3995704686.dir\Debug\cmTryCom.2DC476EE.tlog\cmTryCompileExec3995704686.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3995704686.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.61
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec801224400.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:20 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec801224400.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec801224400.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec801224400.dir\Debug\cmTryCom.B3A96B5D.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec801224400.dir\Debug\cmTryCom.B3A96B5D.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec801224400.dir\Debug\\" /Fd"cmTryCompileExec801224400.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec801224400.dir\Debug\\" /Fd"cmTryCompileExec801224400.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec801224400.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec801224400.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec801224400.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec801224400.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec801224400.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec801224400.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec801224400.dir\Debug\cmTryCom.B3A96B5D.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec801224400.dir\Debug\cmTryCom.B3A96B5D.tlog\cmTryCompileExec801224400.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec801224400.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.63
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1462471416.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:20 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1462471416.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1462471416.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1462471416.dir\Debug\cmTryCom.5530E8E9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1462471416.dir\Debug\cmTryCom.5530E8E9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1462471416.dir\Debug\\" /Fd"cmTryCompileExec1462471416.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1462471416.dir\Debug\\" /Fd"cmTryCompileExec1462471416.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1462471416.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1462471416.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1462471416.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1462471416.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec1462471416.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1462471416.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1462471416.dir\Debug\cmTryCom.5530E8E9.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1462471416.dir\Debug\cmTryCom.5530E8E9.tlog\cmTryCompileExec1462471416.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1462471416.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.15
+
+
+Determining if the include file stdbool.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3471513981.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:22 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3471513981.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3471513981.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3471513981.dir\Debug\cmTryCom.8FBDE837.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3471513981.dir\Debug\cmTryCom.8FBDE837.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3471513981.dir\Debug\\" /Fd"cmTryCompileExec3471513981.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3471513981.dir\Debug\\" /Fd"cmTryCompileExec3471513981.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3471513981.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3471513981.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3471513981.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3471513981.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec3471513981.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3471513981.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3471513981.dir\Debug\cmTryCom.8FBDE837.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3471513981.dir\Debug\cmTryCom.8FBDE837.tlog\cmTryCompileExec3471513981.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3471513981.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+
+
+Determining if the include file locale.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec788246102.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:23 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec788246102.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec788246102.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec788246102.dir\Debug\cmTryCom.8A64345D.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec788246102.dir\Debug\cmTryCom.8A64345D.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec788246102.dir\Debug\\" /Fd"cmTryCompileExec788246102.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec788246102.dir\Debug\\" /Fd"cmTryCompileExec788246102.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec788246102.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec788246102.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec788246102.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec788246102.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec788246102.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec788246102.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec788246102.dir\Debug\cmTryCom.8A64345D.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec788246102.dir\Debug\cmTryCom.8A64345D.tlog\cmTryCompileExec788246102.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec788246102.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec132976349.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:24 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec132976349.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec132976349.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec132976349.dir\Debug\cmTryCom.A9D0A5B4.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec132976349.dir\Debug\cmTryCom.A9D0A5B4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec132976349.dir\Debug\\" /Fd"cmTryCompileExec132976349.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec132976349.dir\Debug\\" /Fd"cmTryCompileExec132976349.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec132976349.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec132976349.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec132976349.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec132976349.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec132976349.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec132976349.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec132976349.dir\Debug\cmTryCom.A9D0A5B4.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec132976349.dir\Debug\cmTryCom.A9D0A5B4.tlog\cmTryCompileExec132976349.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec132976349.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.70
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3533699502.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:25 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3533699502.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3533699502.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3533699502.dir\Debug\cmTryCom.2A599864.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3533699502.dir\Debug\cmTryCom.2A599864.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3533699502.dir\Debug\\" /Fd"cmTryCompileExec3533699502.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3533699502.dir\Debug\\" /Fd"cmTryCompileExec3533699502.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3533699502.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3533699502.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3533699502.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3533699502.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec3533699502.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3533699502.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3533699502.dir\Debug\cmTryCom.2A599864.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3533699502.dir\Debug\cmTryCom.2A599864.tlog\cmTryCompileExec3533699502.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3533699502.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2991020783.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:26 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2991020783.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2991020783.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2991020783.dir\Debug\cmTryCom.C936EAF8.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2991020783.dir\Debug\cmTryCom.C936EAF8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2991020783.dir\Debug\\" /Fd"cmTryCompileExec2991020783.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2991020783.dir\Debug\\" /Fd"cmTryCompileExec2991020783.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2991020783.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2991020783.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2991020783.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2991020783.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec2991020783.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2991020783.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2991020783.dir\Debug\cmTryCom.C936EAF8.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2991020783.dir\Debug\cmTryCom.C936EAF8.tlog\cmTryCompileExec2991020783.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2991020783.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1934893496.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:27 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1934893496.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1934893496.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1934893496.dir\Debug\cmTryCom.FE61A0CF.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1934893496.dir\Debug\cmTryCom.FE61A0CF.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1934893496.dir\Debug\\" /Fd"cmTryCompileExec1934893496.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1934893496.dir\Debug\\" /Fd"cmTryCompileExec1934893496.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1934893496.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1934893496.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1934893496.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1934893496.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec1934893496.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1934893496.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1934893496.dir\Debug\cmTryCom.FE61A0CF.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1934893496.dir\Debug\cmTryCom.FE61A0CF.tlog\cmTryCompileExec1934893496.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1934893496.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec33916508.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:29 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec33916508.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec33916508.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec33916508.dir\Debug\cmTryCom.2D634BC9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec33916508.dir\Debug\cmTryCom.2D634BC9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec33916508.dir\Debug\\" /Fd"cmTryCompileExec33916508.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec33916508.dir\Debug\\" /Fd"cmTryCompileExec33916508.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec33916508.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec33916508.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec33916508.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec33916508.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec33916508.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec33916508.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec33916508.dir\Debug\cmTryCom.2D634BC9.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec33916508.dir\Debug\cmTryCom.2D634BC9.tlog\cmTryCompileExec33916508.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec33916508.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.76
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec217595404.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:32 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec217595404.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec217595404.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec217595404.dir\Debug\cmTryCom.79A3DAA8.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec217595404.dir\Debug\cmTryCom.79A3DAA8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec217595404.dir\Debug\\" /Fd"cmTryCompileExec217595404.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec217595404.dir\Debug\\" /Fd"cmTryCompileExec217595404.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec217595404.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec217595404.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec217595404.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec217595404.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec217595404.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec217595404.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec217595404.dir\Debug\cmTryCom.79A3DAA8.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec217595404.dir\Debug\cmTryCom.79A3DAA8.tlog\cmTryCompileExec217595404.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec217595404.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.68
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3066022910.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:33 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3066022910.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3066022910.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3066022910.dir\Debug\cmTryCom.0036DA05.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3066022910.dir\Debug\cmTryCom.0036DA05.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3066022910.dir\Debug\\" /Fd"cmTryCompileExec3066022910.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3066022910.dir\Debug\\" /Fd"cmTryCompileExec3066022910.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3066022910.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3066022910.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3066022910.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3066022910.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec3066022910.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3066022910.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3066022910.dir\Debug\cmTryCom.0036DA05.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3066022910.dir\Debug\cmTryCom.0036DA05.tlog\cmTryCompileExec3066022910.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3066022910.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.69
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec993922921.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:35 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec993922921.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec993922921.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec993922921.dir\Debug\cmTryCom.EEDAB862.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec993922921.dir\Debug\cmTryCom.EEDAB862.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec993922921.dir\Debug\\" /Fd"cmTryCompileExec993922921.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec993922921.dir\Debug\\" /Fd"cmTryCompileExec993922921.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec993922921.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec993922921.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec993922921.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec993922921.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec993922921.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec993922921.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec993922921.dir\Debug\cmTryCom.EEDAB862.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec993922921.dir\Debug\cmTryCom.EEDAB862.tlog\cmTryCompileExec993922921.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec993922921.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.65
+
+
+Determining if the include file pstdint.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1440445608.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:36 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1440445608.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1440445608.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1440445608.dir\Debug\cmTryCom.4E8395D6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1440445608.dir\Debug\cmTryCom.4E8395D6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1440445608.dir\Debug\\" /Fd"cmTryCompileExec1440445608.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1440445608.dir\Debug\\" /Fd"cmTryCompileExec1440445608.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1440445608.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1440445608.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1440445608.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1440445608.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec1440445608.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1440445608.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1440445608.dir\Debug\cmTryCom.4E8395D6.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1440445608.dir\Debug\cmTryCom.4E8395D6.tlog\cmTryCompileExec1440445608.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1440445608.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.71
+
+
+Determining if the include file BaseTsd.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3604464472.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:38 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3604464472.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3604464472.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3604464472.dir\Debug\cmTryCom.F3345075.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3604464472.dir\Debug\cmTryCom.F3345075.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3604464472.dir\Debug\\" /Fd"cmTryCompileExec3604464472.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3604464472.dir\Debug\\" /Fd"cmTryCompileExec3604464472.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3604464472.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3604464472.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3604464472.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3604464472.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec3604464472.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3604464472.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3604464472.dir\Debug\cmTryCom.F3345075.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3604464472.dir\Debug\cmTryCom.F3345075.tlog\cmTryCompileExec3604464472.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3604464472.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.56
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2922200591.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:39 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2922200591.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2922200591.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2922200591.dir\Debug\cmTryCom.22E3B423.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2922200591.dir\Debug\cmTryCom.22E3B423.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2922200591.dir\Debug\\" /Fd"cmTryCompileExec2922200591.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2922200591.dir\Debug\\" /Fd"cmTryCompileExec2922200591.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2922200591.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2922200591.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2922200591.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2922200591.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec2922200591.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2922200591.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2922200591.dir\Debug\cmTryCom.22E3B423.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2922200591.dir\Debug\cmTryCom.22E3B423.tlog\cmTryCompileExec2922200591.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2922200591.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.65
+
+
+Determining size of void* passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2347540456.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:39 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2347540456.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2347540456.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2347540456.dir\Debug\cmTryCom.44B1A65D.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2347540456.dir\Debug\cmTryCom.44B1A65D.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2347540456.dir\Debug\\" /Fd"cmTryCompileExec2347540456.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_VOIDSTAR.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2347540456.dir\Debug\\" /Fd"cmTryCompileExec2347540456.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_VOIDSTAR.c"
+  
+  SIZEOF_VOIDSTAR.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2347540456.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2347540456.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2347540456.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2347540456.dir\Debug\SIZEOF_VOIDSTAR.obj
+  cmTryCompileExec2347540456.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2347540456.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2347540456.dir\Debug\cmTryCom.44B1A65D.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2347540456.dir\Debug\cmTryCom.44B1A65D.tlog\cmTryCompileExec2347540456.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2347540456.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+
+Determining size of char passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1918388699.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:41 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1918388699.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1918388699.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1918388699.dir\Debug\cmTryCom.19F6DCD3.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1918388699.dir\Debug\cmTryCom.19F6DCD3.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1918388699.dir\Debug\\" /Fd"cmTryCompileExec1918388699.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_CHAR.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1918388699.dir\Debug\\" /Fd"cmTryCompileExec1918388699.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_CHAR.c"
+  
+  SIZEOF_CHAR.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1918388699.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1918388699.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1918388699.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1918388699.dir\Debug\SIZEOF_CHAR.obj
+  cmTryCompileExec1918388699.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1918388699.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1918388699.dir\Debug\cmTryCom.19F6DCD3.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1918388699.dir\Debug\cmTryCom.19F6DCD3.tlog\cmTryCompileExec1918388699.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1918388699.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.57
+
+
+Determining size of double passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec100256115.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:41 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec100256115.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec100256115.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec100256115.dir\Debug\cmTryCom.5F1FBE5C.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec100256115.dir\Debug\cmTryCom.5F1FBE5C.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec100256115.dir\Debug\\" /Fd"cmTryCompileExec100256115.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_DOUBLE.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec100256115.dir\Debug\\" /Fd"cmTryCompileExec100256115.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_DOUBLE.c"
+  
+  SIZEOF_DOUBLE.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec100256115.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec100256115.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec100256115.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec100256115.dir\Debug\SIZEOF_DOUBLE.obj
+  cmTryCompileExec100256115.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec100256115.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec100256115.dir\Debug\cmTryCom.5F1FBE5C.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec100256115.dir\Debug\cmTryCom.5F1FBE5C.tlog\cmTryCompileExec100256115.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec100256115.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+
+
+Determining size of float passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec487391715.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:43 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec487391715.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec487391715.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec487391715.dir\Debug\cmTryCom.C46D696D.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec487391715.dir\Debug\cmTryCom.C46D696D.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec487391715.dir\Debug\\" /Fd"cmTryCompileExec487391715.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_FLOAT.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec487391715.dir\Debug\\" /Fd"cmTryCompileExec487391715.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_FLOAT.c"
+  
+  SIZEOF_FLOAT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec487391715.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec487391715.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec487391715.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec487391715.dir\Debug\SIZEOF_FLOAT.obj
+  cmTryCompileExec487391715.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec487391715.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec487391715.dir\Debug\cmTryCom.C46D696D.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec487391715.dir\Debug\cmTryCom.C46D696D.tlog\cmTryCompileExec487391715.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec487391715.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.89
+
+
+Determining size of int passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3529755603.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:44 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3529755603.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3529755603.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3529755603.dir\Debug\cmTryCom.64BCB846.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3529755603.dir\Debug\cmTryCom.64BCB846.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3529755603.dir\Debug\\" /Fd"cmTryCompileExec3529755603.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_INT.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3529755603.dir\Debug\\" /Fd"cmTryCompileExec3529755603.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_INT.c"
+  
+  SIZEOF_INT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3529755603.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3529755603.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3529755603.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3529755603.dir\Debug\SIZEOF_INT.obj
+  cmTryCompileExec3529755603.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3529755603.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3529755603.dir\Debug\cmTryCom.64BCB846.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3529755603.dir\Debug\cmTryCom.64BCB846.tlog\cmTryCompileExec3529755603.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3529755603.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.60
+
+
+Determining size of long passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3774228529.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:44 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3774228529.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3774228529.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3774228529.dir\Debug\cmTryCom.E79EFD6C.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3774228529.dir\Debug\cmTryCom.E79EFD6C.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3774228529.dir\Debug\\" /Fd"cmTryCompileExec3774228529.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3774228529.dir\Debug\\" /Fd"cmTryCompileExec3774228529.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c"
+  
+  SIZEOF_LONG.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3774228529.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3774228529.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3774228529.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3774228529.dir\Debug\SIZEOF_LONG.obj
+  cmTryCompileExec3774228529.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3774228529.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3774228529.dir\Debug\cmTryCom.E79EFD6C.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3774228529.dir\Debug\cmTryCom.E79EFD6C.tlog\cmTryCompileExec3774228529.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3774228529.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+Determining size of long long passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2027861240.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:45 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2027861240.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2027861240.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2027861240.dir\Debug\cmTryCom.DDF924E9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2027861240.dir\Debug\cmTryCom.DDF924E9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2027861240.dir\Debug\\" /Fd"cmTryCompileExec2027861240.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2027861240.dir\Debug\\" /Fd"cmTryCompileExec2027861240.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c"
+  
+  SIZEOF_LONG_LONG.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2027861240.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2027861240.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2027861240.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2027861240.dir\Debug\SIZEOF_LONG_LONG.obj
+  cmTryCompileExec2027861240.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2027861240.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2027861240.dir\Debug\cmTryCom.DDF924E9.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2027861240.dir\Debug\cmTryCom.DDF924E9.tlog\cmTryCompileExec2027861240.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2027861240.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.69
+
+
+Determining size of off_t passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2789119278.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:46 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2789119278.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2789119278.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2789119278.dir\Debug\cmTryCom.77341222.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2789119278.dir\Debug\cmTryCom.77341222.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2789119278.dir\Debug\\" /Fd"cmTryCompileExec2789119278.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2789119278.dir\Debug\\" /Fd"cmTryCompileExec2789119278.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c"
+  
+  SIZEOF_OFF_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2789119278.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2789119278.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2789119278.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2789119278.dir\Debug\SIZEOF_OFF_T.obj
+  cmTryCompileExec2789119278.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2789119278.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2789119278.dir\Debug\cmTryCom.77341222.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2789119278.dir\Debug\cmTryCom.77341222.tlog\cmTryCompileExec2789119278.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2789119278.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+
+
+Determining size of short passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec501604740.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:48 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec501604740.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec501604740.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec501604740.dir\Debug\cmTryCom.AE132B37.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec501604740.dir\Debug\cmTryCom.AE132B37.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec501604740.dir\Debug\\" /Fd"cmTryCompileExec501604740.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec501604740.dir\Debug\\" /Fd"cmTryCompileExec501604740.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c"
+  
+  SIZEOF_SHORT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec501604740.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec501604740.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec501604740.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec501604740.dir\Debug\SIZEOF_SHORT.obj
+  cmTryCompileExec501604740.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec501604740.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec501604740.dir\Debug\cmTryCom.AE132B37.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec501604740.dir\Debug\cmTryCom.AE132B37.tlog\cmTryCompileExec501604740.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec501604740.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.69
+
+
+Determining size of size_t passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2272900444.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:49 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2272900444.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2272900444.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2272900444.dir\Debug\cmTryCom.B3C3BC1B.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2272900444.dir\Debug\cmTryCom.B3C3BC1B.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2272900444.dir\Debug\\" /Fd"cmTryCompileExec2272900444.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2272900444.dir\Debug\\" /Fd"cmTryCompileExec2272900444.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c"
+  
+  SIZEOF_SIZE_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2272900444.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2272900444.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2272900444.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2272900444.dir\Debug\SIZEOF_SIZE_T.obj
+  cmTryCompileExec2272900444.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2272900444.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2272900444.dir\Debug\cmTryCom.B3C3BC1B.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2272900444.dir\Debug\cmTryCom.B3C3BC1B.tlog\cmTryCompileExec2272900444.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2272900444.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.29
+
+
+Determining size of __int64 passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1141405307.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:51 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1141405307.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1141405307.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1141405307.dir\Debug\cmTryCom.F9ADBEB7.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1141405307.dir\Debug\cmTryCom.F9ADBEB7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1141405307.dir\Debug\\" /Fd"cmTryCompileExec1141405307.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF___INT_64.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1141405307.dir\Debug\\" /Fd"cmTryCompileExec1141405307.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF___INT_64.c"
+  
+  SIZEOF___INT_64.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1141405307.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1141405307.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1141405307.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1141405307.dir\Debug\SIZEOF___INT_64.obj
+  cmTryCompileExec1141405307.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1141405307.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1141405307.dir\Debug\cmTryCom.F9ADBEB7.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1141405307.dir\Debug\cmTryCom.F9ADBEB7.tlog\cmTryCompileExec1141405307.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1141405307.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3032317172.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:53 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3032317172.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3032317172.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3032317172.dir\Debug\cmTryCom.67F28104.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3032317172.dir\Debug\cmTryCom.67F28104.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3032317172.dir\Debug\\" /Fd"cmTryCompileExec3032317172.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_INT64_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3032317172.dir\Debug\\" /Fd"cmTryCompileExec3032317172.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_INT64_T.c"
+  
+  SIZEOF_INT64_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3032317172.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3032317172.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3032317172.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3032317172.dir\Debug\SIZEOF_INT64_T.obj
+  cmTryCompileExec3032317172.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3032317172.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3032317172.dir\Debug\cmTryCom.67F28104.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3032317172.dir\Debug\cmTryCom.67F28104.tlog\cmTryCompileExec3032317172.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3032317172.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.76
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2876357941.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:54 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2876357941.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2876357941.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2876357941.dir\Debug\cmTryCom.0B528A9F.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2876357941.dir\Debug\cmTryCom.0B528A9F.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2876357941.dir\Debug\\" /Fd"cmTryCompileExec2876357941.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_UINT64_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2876357941.dir\Debug\\" /Fd"cmTryCompileExec2876357941.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CheckTypeSize\SIZEOF_UINT64_T.c"
+  
+  SIZEOF_UINT64_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2876357941.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2876357941.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2876357941.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2876357941.dir\Debug\SIZEOF_UINT64_T.obj
+  cmTryCompileExec2876357941.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2876357941.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2876357941.dir\Debug\cmTryCom.0B528A9F.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2876357941.dir\Debug\cmTryCom.0B528A9F.tlog\cmTryCompileExec2876357941.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2876357941.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec80251209.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:57 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec80251209.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec80251209.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec80251209.dir\Debug\cmTryCom.04B65C00.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec80251209.dir\Debug\cmTryCom.04B65C00.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strerror /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec80251209.dir\Debug\\" /Fd"cmTryCompileExec80251209.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strerror /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec80251209.dir\Debug\\" /Fd"cmTryCompileExec80251209.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec80251209.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec80251209.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec80251209.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec80251209.dir\Debug\CheckFunctionExists.obj
+  cmTryCompileExec80251209.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec80251209.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec80251209.dir\Debug\cmTryCom.04B65C00.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec80251209.dir\Debug\cmTryCom.04B65C00.tlog\cmTryCompileExec80251209.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec80251209.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.58
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1466930229.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:20:59 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1466930229.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1466930229.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1466930229.dir\Debug\cmTryCom.0457DC22.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1466930229.dir\Debug\cmTryCom.0457DC22.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strchr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1466930229.dir\Debug\\" /Fd"cmTryCompileExec1466930229.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strchr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1466930229.dir\Debug\\" /Fd"cmTryCompileExec1466930229.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1466930229.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1466930229.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1466930229.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1466930229.dir\Debug\CheckFunctionExists.obj
+  cmTryCompileExec1466930229.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1466930229.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1466930229.dir\Debug\cmTryCom.0457DC22.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1466930229.dir\Debug\cmTryCom.0457DC22.tlog\cmTryCompileExec1466930229.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1466930229.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.69
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec4288308034.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:21:00 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4288308034.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec4288308034.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec4288308034.dir\Debug\cmTryCom.C44E3897.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec4288308034.dir\Debug\cmTryCom.C44E3897.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strrchr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4288308034.dir\Debug\\" /Fd"cmTryCompileExec4288308034.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strrchr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4288308034.dir\Debug\\" /Fd"cmTryCompileExec4288308034.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4288308034.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4288308034.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4288308034.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec4288308034.dir\Debug\CheckFunctionExists.obj
+  cmTryCompileExec4288308034.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4288308034.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec4288308034.dir\Debug\cmTryCom.C44E3897.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec4288308034.dir\Debug\cmTryCom.C44E3897.tlog\cmTryCompileExec4288308034.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4288308034.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.56
+
+
+Determining if the function strcat exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1596950114.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:21:01 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1596950114.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1596950114.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1596950114.dir\Debug\cmTryCom.E8697810.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1596950114.dir\Debug\cmTryCom.E8697810.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strcat /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1596950114.dir\Debug\\" /Fd"cmTryCompileExec1596950114.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strcat /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1596950114.dir\Debug\\" /Fd"cmTryCompileExec1596950114.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1596950114.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1596950114.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1596950114.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1596950114.dir\Debug\CheckFunctionExists.obj
+  cmTryCompileExec1596950114.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1596950114.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1596950114.dir\Debug\cmTryCom.E8697810.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1596950114.dir\Debug\cmTryCom.E8697810.tlog\cmTryCompileExec1596950114.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1596950114.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.68
+
+
+Determining if the function strcpy exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec836620095.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:21:01 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec836620095.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec836620095.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec836620095.dir\Debug\cmTryCom.2B0AC983.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec836620095.dir\Debug\cmTryCom.2B0AC983.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strcpy /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec836620095.dir\Debug\\" /Fd"cmTryCompileExec836620095.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strcpy /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec836620095.dir\Debug\\" /Fd"cmTryCompileExec836620095.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec836620095.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec836620095.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec836620095.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec836620095.dir\Debug\CheckFunctionExists.obj
+  cmTryCompileExec836620095.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec836620095.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec836620095.dir\Debug\cmTryCom.2B0AC983.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec836620095.dir\Debug\cmTryCom.2B0AC983.tlog\cmTryCompileExec836620095.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec836620095.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.73
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec4154279448.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:21:02 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4154279448.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec4154279448.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec4154279448.dir\Debug\cmTryCom.565E5E1C.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec4154279448.dir\Debug\cmTryCom.565E5E1C.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strdup /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4154279448.dir\Debug\\" /Fd"cmTryCompileExec4154279448.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strdup /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4154279448.dir\Debug\\" /Fd"cmTryCompileExec4154279448.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4154279448.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4154279448.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4154279448.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec4154279448.dir\Debug\CheckFunctionExists.obj
+  cmTryCompileExec4154279448.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4154279448.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec4154279448.dir\Debug\cmTryCom.565E5E1C.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec4154279448.dir\Debug\cmTryCom.565E5E1C.tlog\cmTryCompileExec4154279448.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4154279448.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+Determining if the function strtod exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec986067916.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:21:05 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec986067916.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec986067916.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec986067916.dir\Debug\cmTryCom.0DFB00C8.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec986067916.dir\Debug\cmTryCom.0DFB00C8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtod /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec986067916.dir\Debug\\" /Fd"cmTryCompileExec986067916.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtod /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec986067916.dir\Debug\\" /Fd"cmTryCompileExec986067916.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec986067916.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec986067916.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec986067916.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec986067916.dir\Debug\CheckFunctionExists.obj
+  cmTryCompileExec986067916.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec986067916.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec986067916.dir\Debug\cmTryCom.0DFB00C8.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec986067916.dir\Debug\cmTryCom.0DFB00C8.tlog\cmTryCompileExec986067916.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec986067916.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.63
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1963155947.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:21:06 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1963155947.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1963155947.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1963155947.dir\Debug\cmTryCom.0651EC6A.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1963155947.dir\Debug\cmTryCom.0651EC6A.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoll /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1963155947.dir\Debug\\" /Fd"cmTryCompileExec1963155947.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoll /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1963155947.dir\Debug\\" /Fd"cmTryCompileExec1963155947.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1963155947.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1963155947.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1963155947.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1963155947.dir\Debug\CheckFunctionExists.obj
+  cmTryCompileExec1963155947.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1963155947.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1963155947.dir\Debug\cmTryCom.0651EC6A.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1963155947.dir\Debug\cmTryCom.0651EC6A.tlog\cmTryCompileExec1963155947.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1963155947.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.55
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1461122815.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:21:06 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1461122815.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1461122815.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1461122815.dir\Debug\cmTryCom.C2023ACB.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1461122815.dir\Debug\cmTryCom.C2023ACB.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoull /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1461122815.dir\Debug\\" /Fd"cmTryCompileExec1461122815.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoull /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1461122815.dir\Debug\\" /Fd"cmTryCompileExec1461122815.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1461122815.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1461122815.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1461122815.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1461122815.dir\Debug\CheckFunctionExists.obj
+  cmTryCompileExec1461122815.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1461122815.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1461122815.dir\Debug\cmTryCom.C2023ACB.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1461122815.dir\Debug\cmTryCom.C2023ACB.tlog\cmTryCompileExec1461122815.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1461122815.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.70
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1645739188.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:21:07 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1645739188.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1645739188.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1645739188.dir\Debug\cmTryCom.F06FE111.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1645739188.dir\Debug\cmTryCom.F06FE111.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strstr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1645739188.dir\Debug\\" /Fd"cmTryCompileExec1645739188.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strstr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1645739188.dir\Debug\\" /Fd"cmTryCompileExec1645739188.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1645739188.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1645739188.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1645739188.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1645739188.dir\Debug\CheckFunctionExists.obj
+  cmTryCompileExec1645739188.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1645739188.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1645739188.dir\Debug\cmTryCom.F06FE111.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1645739188.dir\Debug\cmTryCom.F06FE111.tlog\cmTryCompileExec1645739188.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1645739188.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.58
+
+
+Determining if the function rand exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec103215093.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:21:09 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec103215093.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec103215093.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec103215093.dir\Debug\cmTryCom.E716CF7E.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec103215093.dir\Debug\cmTryCom.E716CF7E.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=rand /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec103215093.dir\Debug\\" /Fd"cmTryCompileExec103215093.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=rand /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec103215093.dir\Debug\\" /Fd"cmTryCompileExec103215093.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec103215093.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec103215093.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec103215093.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec103215093.dir\Debug\CheckFunctionExists.obj
+  cmTryCompileExec103215093.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec103215093.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec103215093.dir\Debug\cmTryCom.E716CF7E.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec103215093.dir\Debug\cmTryCom.E716CF7E.tlog\cmTryCompileExec103215093.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec103215093.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2630113628.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:21:12 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2630113628.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2630113628.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2630113628.dir\Debug\cmTryCom.6EB756F8.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2630113628.dir\Debug\cmTryCom.6EB756F8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=memmove /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2630113628.dir\Debug\\" /Fd"cmTryCompileExec2630113628.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=memmove /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2630113628.dir\Debug\\" /Fd"cmTryCompileExec2630113628.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2630113628.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2630113628.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2630113628.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2630113628.dir\Debug\CheckFunctionExists.obj
+  cmTryCompileExec2630113628.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2630113628.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2630113628.dir\Debug\cmTryCom.6EB756F8.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2630113628.dir\Debug\cmTryCom.6EB756F8.tlog\cmTryCompileExec2630113628.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2630113628.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+
+
+Determining if the function _filelengthi64 exists passed with the following output:
+Change Dir: D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3083427643.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/27/2015 4:21:16 PM.
+Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3083427643.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3083427643.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3083427643.dir\Debug\cmTryCom.27B77007.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3083427643.dir\Debug\cmTryCom.27B77007.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_filelengthi64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3083427643.dir\Debug\\" /Fd"cmTryCompileExec3083427643.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_filelengthi64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3083427643.dir\Debug\\" /Fd"cmTryCompileExec3083427643.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3083427643.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3083427643.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3083427643.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3083427643.dir\Debug\CheckFunctionExists.obj
+  cmTryCompileExec3083427643.vcxproj -> D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3083427643.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3083427643.dir\Debug\cmTryCom.27B77007.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3083427643.dir\Debug\cmTryCom.27B77007.tlog\cmTryCompileExec3083427643.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3083427643.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.67
+
+

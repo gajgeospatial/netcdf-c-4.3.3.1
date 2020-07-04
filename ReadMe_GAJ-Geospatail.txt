@@ -1,0 +1,1 @@
+This project should be installed as NETCDF_DIR with ProjectTool.

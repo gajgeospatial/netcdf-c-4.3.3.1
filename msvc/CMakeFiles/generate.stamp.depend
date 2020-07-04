@@ -1,0 +1,62 @@
+# CMake generation dependency list for this directory.
+D:/Development/op3d_active/netcdf-c-4.3.3.1/CMakeLists.txt
+D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/2.8.12.2/CMakeSystem.cmake
+D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/2.8.12.2/CMakeCCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC.cmake
+D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/2.8.12.2/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/GNUInstallDirs.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckLibraryExists.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckTypeSize.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/TestBigEndian.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckSymbolExists.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/GetPrerequisites.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckCCompilerFlag.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPkgConfig.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+D:/Development/op3d_active/netcdf-c-4.3.3.1/cmake/modules/FindMakeDist.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CTest.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CTestUseLaunchers.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/GenerateExportHeader.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckCXXSourceCompiles.cmake
+D:/Development/op3d_active/hdf5-1.8.13/msvc/hdf5-config.cmake
+D:/Development/op3d_active/hdf5-1.8.13/msvc/hdf5-targets.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindZLIB.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindCURL.cmake
+D:/Development/op3d_active/netcdf-c-4.3.3.1/config.h.cmake.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/InstallRequiredSystemLibraries.cmake
+D:/Development/op3d_active/netcdf-c-4.3.3.1/FixBundle.cmake.in
+D:/Development/op3d_active/netcdf-c-4.3.3.1/netcdf.pc.in
+D:/Development/op3d_active/netcdf-c-4.3.3.1/nc-config.cmake.in
+D:/Development/op3d_active/netcdf-c-4.3.3.1/libnetcdf.settings.in
+D:/Development/op3d_active/netcdf-c-4.3.3.1/include/netcdf_meta.h.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/WriteBasicConfigVersionFile.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+D:/Development/op3d_active/netcdf-c-4.3.3.1/netCDFConfig.cmake.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+D:/Development/op3d_active/netcdf-c-4.3.3.1/CMakeInstallation.cmake
+D:/Development/op3d_active/netcdf-c-4.3.3.1/COPYRIGHT
+D:/Development/op3d_active/netcdf-c-4.3.3.1/cmake_uninstall.cmake.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CPack.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CPackComponent.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Templates/CPackConfig.cmake.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Templates/CPackConfig.cmake.in

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{A26BC6E8-9F5A-40B0-B1A2-2EE3B1CF7A88}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>distcheck</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Development\op3d_active\hdf5-1.8.13\src;D:\Development\op3d_active\hdf5-1.8.13\c++;D:\Development\op3d_active\hdf5-1.8.13\hl;D:\Development\op3d_active\hdf5-1.8.13\tools;D:\Development\op3d_active\hdf5-1.8.13\msvc;D:\Development\op3d_active\zlib-1.2.8;D:\Development\op3d_active\curl-7.44.0\include;D:\Development\op3d_active\netcdf-c-4.3.3.1\include;D:\Development\op3d_active\netcdf-c-4.3.3.1\oc2;D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc;D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Development\op3d_active\hdf5-1.8.13\src;D:\Development\op3d_active\hdf5-1.8.13\c++;D:\Development\op3d_active\hdf5-1.8.13\hl;D:\Development\op3d_active\hdf5-1.8.13\tools;D:\Development\op3d_active\hdf5-1.8.13\msvc;D:\Development\op3d_active\zlib-1.2.8;D:\Development\op3d_active\curl-7.44.0\include;D:\Development\op3d_active\netcdf-c-4.3.3.1\include;D:\Development\op3d_active\netcdf-c-4.3.3.1\oc2;D:\Development\op3d_active\netcdf-c-4.3.3.1\libsrc;D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\0cb271d7e57739e5b4ccf5d7eacf46de\distcheck.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+rm -f D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/netCDF-4.3.3.1.tar.bz2.tmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe dist MAKEDIST_TARBALL_TMP=.tmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe .distcheck MAKEDIST_TARBALL_TMP=.tmp
+if %errorlevel% neq 0 goto :cmEnd
+rm -f D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/netCDF-4.3.3.1.tar.bz2
+if %errorlevel% neq 0 goto :cmEnd
+mv -f D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/netCDF-4.3.3.1.tar.bz2.tmp D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/netCDF-4.3.3.1.tar.bz2
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/0cb271d7e57739e5b4ccf5d7eacf46de/distcheck.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\distcheck</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+rm -f D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/netCDF-4.3.3.1.tar.bz2.tmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe dist MAKEDIST_TARBALL_TMP=.tmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe .distcheck MAKEDIST_TARBALL_TMP=.tmp
+if %errorlevel% neq 0 goto :cmEnd
+rm -f D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/netCDF-4.3.3.1.tar.bz2
+if %errorlevel% neq 0 goto :cmEnd
+mv -f D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/netCDF-4.3.3.1.tar.bz2.tmp D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/netCDF-4.3.3.1.tar.bz2
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/0cb271d7e57739e5b4ccf5d7eacf46de/distcheck.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\distcheck</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+      </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+rm -f D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/netCDF-4.3.3.1.tar.bz2.tmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe dist MAKEDIST_TARBALL_TMP=.tmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe .distcheck MAKEDIST_TARBALL_TMP=.tmp
+if %errorlevel% neq 0 goto :cmEnd
+rm -f D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/netCDF-4.3.3.1.tar.bz2
+if %errorlevel% neq 0 goto :cmEnd
+mv -f D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/netCDF-4.3.3.1.tar.bz2.tmp D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/netCDF-4.3.3.1.tar.bz2
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/0cb271d7e57739e5b4ccf5d7eacf46de/distcheck.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\distcheck</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+      </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+rm -f D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/netCDF-4.3.3.1.tar.bz2.tmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe dist MAKEDIST_TARBALL_TMP=.tmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe .distcheck MAKEDIST_TARBALL_TMP=.tmp
+if %errorlevel% neq 0 goto :cmEnd
+rm -f D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/netCDF-4.3.3.1.tar.bz2
+if %errorlevel% neq 0 goto :cmEnd
+mv -f D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/netCDF-4.3.3.1.tar.bz2.tmp D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/netCDF-4.3.3.1.tar.bz2
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Development/op3d_active/netcdf-c-4.3.3.1/msvc/CMakeFiles/0cb271d7e57739e5b4ccf5d7eacf46de/distcheck.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Development\op3d_active\netcdf-c-4.3.3.1\msvc\CMakeFiles\distcheck</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\distcheck" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
